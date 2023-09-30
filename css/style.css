@@ -63,4 +63,21 @@ img {
 }
 
 /* fin menu*/
+
+/*comienzo meet the team*/
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex article {
+    width: 25%;
+}
+
+.flex article h3,
+h4 {
+    text-align: center;
+    font-size: 100%;
 }

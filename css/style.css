@@ -125,6 +125,14 @@ header nav.container .menu .active {
     }
 
     header nav.container .menu a {
-        padding: 0rem var(--space) 0 0;
+        padding: 0rem calc(var(--space) * 1.25) 0 0;
+    }
+
+
+
+    @media(min-width: 87.5rem) {
+        header .container {
+            padding: 0em;
+        }
     }
 }

@@ -37,13 +37,13 @@ body {
     font-family: var(--font);
     font-weight: 300;
     color: var(--mainColor);
-    font-size: 1em;
+    font-size: 1rem;
 
 }
 
 /*inicio header */
 header {
-    padding-top: 2em;
+    padding-top: 2rem;
     background-color: rgba(255, 255, 255, 0.8);
     position: sticky;
     top: 0;
@@ -58,8 +58,8 @@ header .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    font-size: 1.75em;
-    padding: 0em 1.25em;
+    font-size: 1.75rem;
+    padding: 0rem 1.25rem;
 }
 
 header nav.container>a {
@@ -94,6 +94,18 @@ header nav.container .menu .active {
 }
 
 /*fin header*/
+
+/* inicio del footer */
+
+footer .container {
+    padding: 0rem 1.25rem;
+    color: var(--secondaryColor);
+
+
+}
+
+
+/* final del footer */
 
 
 
@@ -132,7 +144,11 @@ header nav.container .menu .active {
 
     @media(min-width: 87.5rem) {
         header .container {
-            padding: 0em;
+            padding: 0rem;
+        }
+
+        footer .container {
+            padding: 0rem;
         }
     }
 }

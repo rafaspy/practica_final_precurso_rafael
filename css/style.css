@@ -198,6 +198,21 @@ section h2 {
     margin: 20px 0px;
 }
 
+/* inicio work */
+.work .flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work .flex div {
+    width: 20%;
+    text-align: center;
+
+}
+
+
+
+/*fin work*/
 
 /* mediaqueries mias*/
 @media(width < 48rem) {

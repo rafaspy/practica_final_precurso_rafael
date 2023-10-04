@@ -98,12 +98,12 @@ header nav.container .menu .active {
 /*comienzo meet the team*/
 
 
-.flex {
+.meet .flex {
     display: flex;
     flex-wrap: wrap;
 }
 
-.flex article {
+.meet .flex article {
     width: 25%;
 
 
@@ -143,8 +143,11 @@ figure.cuadrado {
 
 }
 
-article h3,
-h4 {
+.meet article h3 {
+    text-align: center;
+}
+
+.meet article h4 {
     text-align: center;
 }
 
@@ -175,14 +178,46 @@ section h2 {
     text-decoration: underline;
 }
 
+
+/* fin meet the team*/
+
+/*inicio our expertise */
+
+.expertise .flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.expertise .flex article {
+    width: 33.333%;
+}
+
+.expertise figure img {
+    width: 75px;
+    height: auto;
+    margin: 20px 0px;
+}
+
+
 /* mediaqueries mias*/
 @media(width < 48rem) {
-    .flex {
+    .meet .flex {
 
         flex-direction: row;
     }
 
-    .flex article {
+    .meet .flex article {
+        width: 100%;
+
+
+    }
+
+    .expertise .flex {
+
+        flex-direction: row;
+    }
+
+    .expertise .flex article {
         width: 100%;
 
 

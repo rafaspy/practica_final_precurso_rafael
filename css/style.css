@@ -162,8 +162,6 @@ article h4 {
 section h2 {
     font-size: 3em;
     padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-
 
 }
 
@@ -174,7 +172,6 @@ section h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 
 }
 
@@ -190,12 +187,10 @@ section h2 {
 .expertise .flex {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 50px;
 }
 
 .expertise .flex article {
     width: 33.333%;
-    margin: 30px auto;
 }
 
 .expertise figure img {
@@ -231,30 +226,11 @@ hr {
 
 .parrafo {
     height: 400px;
-
 }
 
-.parrafo h3 {
-    font-size: 1.75em;
-    text-align: center;
-    margin: 10px auto;
-}
-
-.hidden2 {
-    display: none;
-}
 
 /*fin work*/
 
-
-/* inicio de footer */
-
-footer .container {
-    padding: 0rem 1.25rem;
-    color: var(--secondaryColor);
-}
-
-/* final del footer */
 /* mediaqueries mias*/
 @media(width < 48rem) {
     .meet .flex {
@@ -268,7 +244,6 @@ footer .container {
 
     }
 
-    /* inicio mediaq expertise*/
     .expertise .flex {
 
         flex-direction: row;
@@ -278,29 +253,6 @@ footer .container {
         width: 100%;
 
 
-    }
-
-    .expertise figure img {
-
-        margin: 20px auto;
-    }
-
-
-    .expertise {
-
-        text-align: center;
-    }
-
-    .hidden2 {
-        display: block;
-    }
-
-    .hidden {
-        display: none;
-    }
-
-    .container {
-        padding: 0rem 1.25rem;
     }
 }
 
